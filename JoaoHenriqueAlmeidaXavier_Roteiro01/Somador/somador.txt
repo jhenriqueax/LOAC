@@ -1,0 +1,9 @@
+Este é um módulo Verilog que implementa um somador de dois valores de 8 bits, representados pelas entradas A e B. O resultado da soma é enviado para a saída S, que também é de 8 bits.
+
+Além disso, há três saídas adicionais:
+
+A saída Z é um sinal lógico que indica se o resultado da soma é zero ou não. Isso é implementado comparando o resultado da soma com zero usando o operador de igualdade (==).
+
+A saída N é um sinal lógico que indica se o resultado da soma é negativo ou não. Isso é implementado verificando se o bit mais significativo (bit 7) do resultado da soma é 1 ou não.
+
+A saída P é um sinal lógico que indica se o resultado da soma é par ou não. Isso é implementado verificando se o bit menos significativo (bit 0) do resultado da soma é 0 ou não.
