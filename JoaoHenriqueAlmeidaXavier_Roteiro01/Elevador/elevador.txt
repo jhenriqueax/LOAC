@@ -1,3 +1,0 @@
-Nessa implementação, as entradas A1, A2 e A3 são conectadas a uma porta lógica OR de três entradas. A saída dessa porta OR é conectada a uma das entradas da porta AND, enquanto a entrada M é conectada à entrada da porta NOT cuja saída é conectada à outra entrada da porta AND.
-
-Dessa forma, a porta do elevador só será aberta se as condições de segurança forem atendidas, ou seja, se o elevador estiver parado em um dos andares (A1, A2 ou A3) e M for 0. Se alguma das condições não for atendida, a saída da porta NOT será 1, e a porta do elevador não será aberta.
